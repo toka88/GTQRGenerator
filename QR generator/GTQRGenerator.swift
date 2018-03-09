@@ -17,7 +17,7 @@
 import UIKit
 
 ////////////////////////////////////////////////////////////////////////////////
-class NDQRGenerator {
+class GTQRGenerator {
     
     /// Generate QR code with passed data
     ///

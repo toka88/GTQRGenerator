@@ -93,7 +93,7 @@ class GTQrCodePreviewViewController: UIViewController
     
     private func generateQRCode(){
         let imageSize = CGSize.init(width: self.imageView.frame.size.width, height: self.imageView.frame.size.width)
-        self.imageView.image = NDQRGenerator.generateQRCode(withText: text, size: imageSize)
+        self.imageView.image = GTQRGenerator.generateQRCode(withText: text, size: imageSize)
         
     }
 //    private func convertTextToQRCode(_ text : String?) -> CIImage? {

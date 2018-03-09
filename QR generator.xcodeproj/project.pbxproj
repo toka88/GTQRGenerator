@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2B70A14820529AC100E2B5D7 /* NDQRGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B70A14720529AC100E2B5D7 /* NDQRGenerator.swift */; };
+		2B70A14820529AC100E2B5D7 /* GTQRGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B70A14720529AC100E2B5D7 /* GTQRGenerator.swift */; };
 		2B99405F205172DE00E2AB90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B99405E205172DE00E2AB90 /* AppDelegate.swift */; };
 		2B994064205172DE00E2AB90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B994062205172DE00E2AB90 /* Main.storyboard */; };
 		2B994066205172DE00E2AB90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B994065205172DE00E2AB90 /* Assets.xcassets */; };
@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2B70A14720529AC100E2B5D7 /* NDQRGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDQRGenerator.swift; sourceTree = "<group>"; };
+		2B70A14720529AC100E2B5D7 /* GTQRGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTQRGenerator.swift; sourceTree = "<group>"; };
 		2B99405B205172DE00E2AB90 /* QR generator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QR generator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B99405E205172DE00E2AB90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B994063205172DE00E2AB90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -65,7 +65,7 @@
 				2B99406A205172DE00E2AB90 /* Info.plist */,
 				2B9940702051734B00E2AB90 /* GTInputTextViewController.swift */,
 				2B9940722051773900E2AB90 /* GTQrCodePreviewViewController.swift */,
-				2B70A14720529AC100E2B5D7 /* NDQRGenerator.swift */,
+				2B70A14720529AC100E2B5D7 /* GTQRGenerator.swift */,
 			);
 			path = "QR generator";
 			sourceTree = "<group>";
@@ -144,7 +144,7 @@
 			files = (
 				2B9940732051773900E2AB90 /* GTQrCodePreviewViewController.swift in Sources */,
 				2B99405F205172DE00E2AB90 /* AppDelegate.swift in Sources */,
-				2B70A14820529AC100E2B5D7 /* NDQRGenerator.swift in Sources */,
+				2B70A14820529AC100E2B5D7 /* GTQRGenerator.swift in Sources */,
 				2B9940712051734B00E2AB90 /* GTInputTextViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
