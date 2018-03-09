@@ -7,21 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B70A14820529AC100E2B5D7 /* NDQRGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B70A14720529AC100E2B5D7 /* NDQRGenerator.swift */; };
 		2B99405F205172DE00E2AB90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B99405E205172DE00E2AB90 /* AppDelegate.swift */; };
-		2B994061205172DE00E2AB90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B994060205172DE00E2AB90 /* ViewController.swift */; };
 		2B994064205172DE00E2AB90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B994062205172DE00E2AB90 /* Main.storyboard */; };
 		2B994066205172DE00E2AB90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B994065205172DE00E2AB90 /* Assets.xcassets */; };
 		2B994069205172DE00E2AB90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B994067205172DE00E2AB90 /* LaunchScreen.storyboard */; };
+		2B9940712051734B00E2AB90 /* GTInputTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9940702051734B00E2AB90 /* GTInputTextViewController.swift */; };
+		2B9940732051773900E2AB90 /* GTQrCodePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9940722051773900E2AB90 /* GTQrCodePreviewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B70A14720529AC100E2B5D7 /* NDQRGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDQRGenerator.swift; sourceTree = "<group>"; };
 		2B99405B205172DE00E2AB90 /* QR generator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QR generator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B99405E205172DE00E2AB90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2B994060205172DE00E2AB90 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2B994063205172DE00E2AB90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2B994065205172DE00E2AB90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B994068205172DE00E2AB90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B99406A205172DE00E2AB90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B9940702051734B00E2AB90 /* GTInputTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTInputTextViewController.swift; sourceTree = "<group>"; };
+		2B9940722051773900E2AB90 /* GTQrCodePreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTQrCodePreviewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				2B99405E205172DE00E2AB90 /* AppDelegate.swift */,
-				2B994060205172DE00E2AB90 /* ViewController.swift */,
 				2B994062205172DE00E2AB90 /* Main.storyboard */,
 				2B994065205172DE00E2AB90 /* Assets.xcassets */,
 				2B994067205172DE00E2AB90 /* LaunchScreen.storyboard */,
 				2B99406A205172DE00E2AB90 /* Info.plist */,
+				2B9940702051734B00E2AB90 /* GTInputTextViewController.swift */,
+				2B9940722051773900E2AB90 /* GTQrCodePreviewViewController.swift */,
+				2B70A14720529AC100E2B5D7 /* NDQRGenerator.swift */,
 			);
 			path = "QR generator";
 			sourceTree = "<group>";
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B994061205172DE00E2AB90 /* ViewController.swift in Sources */,
+				2B9940732051773900E2AB90 /* GTQrCodePreviewViewController.swift in Sources */,
 				2B99405F205172DE00E2AB90 /* AppDelegate.swift in Sources */,
+				2B70A14820529AC100E2B5D7 /* NDQRGenerator.swift in Sources */,
+				2B9940712051734B00E2AB90 /* GTInputTextViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
